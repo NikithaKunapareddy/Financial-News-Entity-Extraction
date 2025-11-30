@@ -1,0 +1,17 @@
+# Core Data Processing
+numpy>=1.23.0
+
+# NLP Libraries
+spacy>=3.5.0
+
+# Jupyter
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.22.0
+
+# Note: After installing requirements, run:
+# python -m spacy download en_core_web_md
+
+# Backend API
+fastapi
+uvicorn[standard]
