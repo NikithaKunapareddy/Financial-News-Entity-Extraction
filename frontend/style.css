@@ -7,6 +7,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Account for sticky navbar */
 }
 
 body {
@@ -876,3 +877,4 @@ main {
     padding: 26px;
     border-radius: 14px;
 }
+
